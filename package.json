@@ -1,0 +1,25 @@
+{
+  "name": "node-mongodb-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "joigoose": "^4.0.8",
+    "moment": "^2.24.0",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
